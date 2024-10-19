@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Istanbul Restaurant Menu</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="assets/img_icon.jpg">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Great+Vibes:wght@400;600&family=Noto+Sans:wght@400;600&family=Playpen+Sans:wght@400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons" />
+    </head>
+    <body>
+        <nav>
+            <h2 class="logo">Istanbul</h2>
+        </nav>
+        <section class="menu">
+            <div class="menu-container">
+                <div class="menu-header">
+                    <h2>Menümüz</h2>
+                    <p>Keyifli menü öğelerimizden birini seçin. Her türlü mutfak zevkine hitap ediyoruz. Menü öğelerini türe göre filtreleyebilirsiniz.</p>
+                </div>
+                <div class="menu-buttons">
+                    <button type="button" class="menu-button active-button" id="All">Tüm</button>
+                    <button type="button" class="menu-button" id="Breakfast">Breakfast</button>
+                    <button type="button" class="menu-button" id="Lunch">Lunch</button>
+                    <button type="button" class="menu-button" id="Dinner">Dinner</button>
+                </div>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <img src="assets/img_1.jpg" alt="food image">
+                        </div>
+                        <div class="item-details">
+                            <h3 class="item-name">Овощи на гриле</h3>
+                            <h4 class="item-price">16 000 сум</h4>
+                            <ul class="item-rating">
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star_outline</span></li>
+                            </ul>
+                            <p class="item-category">Categories: <span>Breakfast</span></p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <img src="assets/img_2.jpg" alt="food image">
+                        </div>
+                        <div class="item-details">
+                            <h3 class="item-name">Гузал</h3>
+                            <h4 class="item-price">16 000 сум</h4>
+                            <ul class="item-rating">
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star_half</span></li>
+                                <li><span class="material-icons">star_outline</span></li>
+                            </ul>
+                            <p class="item-category">Categories: <span>Breakfast</span></p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <img src="assets/img_3.jpg" alt="food image">
+                        </div>
+                        <div class="item-details">
+                            <h3 class="item-name">Пироженое с лимоном </h3>
+                            <h4 class="item-price">14 000 сум</h4>
+                            <ul class="item-rating">
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star_half</span></li>
+                            </ul>
+                            <p class="item-category">Categories: <span>Breakfast</span></p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <img src="assets/img_4.jpg" alt="food image">
+                        </div>
+                        <div class="item-details">
+                            <h3 class="item-name">Пироженое опера</h3>
+                            <h4 class="item-price">10 000 сум</h4>
+                            <ul class="item-rating">
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star_half</span></li>
+                                <li><span class="material-icons">star_outline</span></li>
+                            </ul>
+                            <p class="item-category">Categories: <span>Breakfast</span></p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <img src="assets/img_5.jpg" alt="food image">
+                        </div>
+                        <div class="item-details">
+                            <h3 class="item-name">Мясной сендвич</h3>
+                            <h4 class="item-price">28 000 cум</h4>
+                            <ul class="item-rating">
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star_outline</span></li>
+                            </ul>
+                            <p class="item-category">Categories: <span>Lunch</span></p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <img src="assets/img_6.jpg" alt="food image">
+                        </div>
+                        <div class="item-details">
+                            <h3 class="item-name">Куриный сендвич</h3>
+                            <h4 class="item-price">28 000 сум</h4>
+                            <ul class="item-rating">
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star_half</span></li>
+                                <li><span class="material-icons">star_outline</span></li>
+                            </ul>
+                            <p class="item-category">Categories: <span>Lunch</span></p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <img src="assets/img_7.jpg" alt="food image">
+                        </div>
+                        <div class="item-details">
+                            <h3 class="item-name">Cырный пиде</h3>
+                            <h4 class="item-price">22 000 сум</h4>
+                            <ul class="item-rating">
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star_half</span></li>
+                            </ul>
+                            <p class="item-category">Categories: <span>Lunch</span></p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <img src="assets/img_8.jpg" alt="food image">
+                        </div>
+                        <div class="item-details">
+                            <h3 class="item-name">Киймали пиде</h3>
+                            <h4 class="item-price">22 000 сум</h4>
+                            <ul class="item-rating">
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star_outline</span></li>
+                            </ul>
+                            <p class="item-category">Categories: <span>Lunch</span></p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <img src="assets/img_9.jpg" alt="food image">
+                        </div>
+                        <div class="item-details">
+                            <h3 class="item-name">Пуф хлеб</h3>
+                            <h4 class="item-price">5 000 сум</h4>
+                            <ul class="item-rating">
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star_outline</span></li>
+                                <li><span class="material-icons">star_outline</span></li>
+                            </ul>
+                            <p class="item-category">Categories: <span>Breakfast</span></p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <img src="assets/img_10.jpg" alt="food image">
+                        </div>
+                        <div class="item-details">
+                            <h3 class="item-name">Афганский хлеб</h3>
+                            <h4 class="item-price">5 000 сум</h4>
+                            <ul class="item-rating">
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star_outline</span></li>
+                            </ul>
+                            <p class="item-category">Categories: <span>Breakfast</span></p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <img src="assets/img_11.jpg" alt="food image">
+                        </div>
+                        <div class="item-details">
+                            <h3 class="item-name">Шашлык Адана</h3>
+                            <h4 class="item-price">32 000 сум</h4>
+                            <ul class="item-rating">
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star_outline</span></li>
+                                <li><span class="material-icons">star_outline</span></li>
+                            </ul>
+                            <p class="item-category">Categories: <span>Dinner</span></p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <img src="assets/img_12.jpg" alt="food image">
+                        </div>
+                        <div class="item-details">
+                            <h3 class="item-name">Баранья пирзола </h3>
+                            <h4 class="item-price">32 000 сум</h4>
+                            <ul class="item-rating">
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star_outline</span></li>
+                            </ul>
+                            <p class="item-category">Categories: <span>Dinner</span></p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <img src="assets/img_13.jpg" alt="food image">
+                        </div>
+                        <div class="item-details">
+                            <h3 class="item-name">Пицца пеперони</h3>
+                            <h4 class="item-price">55 000 сум</h4>
+                            <ul class="item-rating">
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star_outline</span></li>
+                                <li><span class="material-icons">star_outline</span></li>
+                            </ul>
+                            <p class="item-category">Categories: <span>Dinner</span></p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <img src="assets/img_14.jpg" alt="food image">
+                        </div>
+                        <div class="item-details">
+                            <h3 class="item-name">Пицца Маргарита</h3>
+                            <h4 class="item-price">55 000 сум</h4>
+                            <ul class="item-rating">
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star_outline</span></li>
+                            </ul>
+                            <p class="item-category">Categories: <span>Dinner</span></p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <img src="https://mykaleidoscope.ru/x/uploads/posts/2023-12/1703308114_mykaleidoscope-ru-p-myasnie-blyuda-v-kazane-oboi-33.jpg" alt="food image">
+                        </div>
+                        <div class="item-details">
+                            <h3 class="item-name">Бараньий стейк</h3>
+                            <h4 class="item-price">75 000 сум</h4>
+                            <ul class="item-rating">
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star_outline</span></li>
+                                <li><span class="material-icons">star_outline</span></li>
+                            </ul>
+                            <p class="item-category">Categories: <span>Dinner</span></p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <img src="https://bogatyr.club/uploads/posts/2023-03/1678403643_bogatyr-club-p-krasivii-steik-foni-oboi-37.jpg" alt="food image">
+                        </div>
+                        <div class="item-details">
+                            <h3 class="item-name">Коровьий стейк</h3>
+                            <h4 class="item-price">75 000 сум</h4>
+                            <ul class="item-rating">
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star_outline</span></li>
+                            </ul>
+                            <p class="item-category">Categories: <span>Dinner</span></p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <img src="https://www.zastavki.com/pictures/originals/2020Food___Cakes_and_Sweet_Beautiful_glossy_orange_cake_on_a_black_background_138839_.jpg" alt="food image">
+                        </div>
+                        <div class="item-details">
+                            <h3 class="item-name">Торт с сгущёнкой</h3>
+                            <h4 class="item-price">90 000 сум</h4>
+                            <ul class="item-rating">
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star_outline</span></li>
+                                <li><span class="material-icons">star_outline</span></li>
+                            </ul>
+                            <p class="item-category">Categories: <span>Breakfast</span></p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <img src="https://s1.1zoom.ru/big0/366/Sweets_Cakes_Chocolate_Cookies_Black_background_537922_1288x1024.jpg" alt="food image">
+                        </div>
+                        <div class="item-details">
+                            <h3 class="item-name">Шоколадный торт</h3>
+                            <h4 class="item-price">85 000 сум</h4>
+                            <ul class="item-rating">
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star_outline</span></li>
+                            </ul>
+                            <p class="item-category">Categories: <span>Breakfast</span></p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <img src="https://st03.kakprosto.ru/images/article/2019/1/11/346137_5c3836164db075c3836164db4a.jpeg" alt="food image">
+                        </div>
+                        <div class="item-details">
+                            <h3 class="item-name">Чёрный чай</h3>
+                            <h4 class="item-price">5 000 сум</h4>
+                            <ul class="item-rating">
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star_outline</span></li>
+                                <li><span class="material-icons">star_outline</span></li>
+                            </ul>
+                            <p class="item-category">Categories: <span>Lunch</span></p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <img src="https://www.zastavki.com/pictures/originals/2019Food___Drinks_Cocktail_with_orange_slices_on_a_black_background_with_ice_133008_.jpg" alt="food image">
+                        </div>
+                        <div class="item-details">
+                            <h3 class="item-name">Апельсиновый сок</h3>
+                            <h4 class="item-price">12 000 сум</h4>
+                            <ul class="item-rating">
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star</span></li>
+                                <li><span class="material-icons">star_outline</span></li>
+                            </ul>
+                            <p class="item-category">Categories: <span>Breakfast</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>
